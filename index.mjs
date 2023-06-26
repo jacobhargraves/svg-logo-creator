@@ -35,7 +35,7 @@ function userInput() {
     .prompt(userInputQuestions)
     .then((answers) => {
         // console.log(answers);
-        writeToFile('logo.svg', generateSVG(answers));
+        writeToFile('./examples/logo.svg', generateSVG(answers));
     })
     .catch((error) => {
     if (error.isTtyError) {
