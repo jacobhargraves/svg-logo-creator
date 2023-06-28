@@ -19,11 +19,14 @@ N/A
 
 This app uses the terminal.  Simply navigate to the folder and type "node index.mjs" to start the app.  Select which shape you wish to use with the spacebar and press enter.  Next, enter input for each of the prompts.  Upon completing the prompts, the logo.svg file will be added to the examples folder.  Navigate to the new file to view the logo created!
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Terminal
+![Screenshot of app in terminal](./assets/images/svg-terminal.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+Generated SVG code
+![Screenshot of generated svg file](./assets/images/svg-code.png)
+
+SVG file in browser
+![Screenshot of svg opened in browser](./assets/images/svg-browser.png)
 
 ## Credits
 
@@ -37,4 +40,4 @@ Please view the license in the repository
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Test file is located in lib folder as shapes.test.js.  To run, type in the terminal "npm run test".  Three tests will be ran testing the render function for each class.  All tests should pass.

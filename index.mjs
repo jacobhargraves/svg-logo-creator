@@ -10,7 +10,7 @@ const userInputQuestions = [
         type: 'checkbox',
         message: 'What kind of shape do you want to create?',
         name: 'shape',
-        choices: ['Circle', 'Rectangle', 'Triangle']
+        choices: ['Circle', 'Square', 'Triangle']
     },       
     {
         type: 'input',
@@ -57,8 +57,8 @@ function generateSVG(answers) {
             answers.shapeColor
         )
         return newShape.render();
-    } else if (answers.shape.includes('Rectangle')) {
-        let newShape = new shapeFile.Rectangle(
+    } else if (answers.shape.includes('Square')) {
+        let newShape = new shapeFile.Square(
             answers.text,
             answers.textColor,
             answers.shapeColor
@@ -72,7 +72,7 @@ function generateSVG(answers) {
         )
         return newShape.render();
     } else {
-        console.error('You did not select a shape correctly');
+        console.error('You did not select a shape correctly. Please run the application again and select a shape using your spacebar.');
     }
 }
 
