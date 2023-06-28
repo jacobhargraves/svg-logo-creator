@@ -19,6 +19,9 @@ N/A
 
 This app uses the terminal.  Simply navigate to the folder and type "node index.mjs" to start the app.  Select which shape you wish to use with the spacebar and press enter.  Next, enter input for each of the prompts.  Upon completing the prompts, the logo.svg file will be added to the examples folder.  Navigate to the new file to view the logo created!
 
+Video walk-through link:
+https://drive.google.com/file/d/1sLGhFzGkpShoe5U_4rMIaKXQrAelycWY/view
+
 Terminal
 ![Screenshot of app in terminal](./assets/images/svg-terminal.png)
 
