@@ -22,13 +22,10 @@ This app uses the terminal.  Simply navigate to the folder and type "node index.
 Video walk-through link:
 https://drive.google.com/file/d/1sLGhFzGkpShoe5U_4rMIaKXQrAelycWY/view
 
-Terminal
 ![Screenshot of app in terminal](./assets/images/svg-terminal.png)
 
-Generated SVG code
 ![Screenshot of generated svg file](./assets/images/svg-code.png)
 
-SVG file in browser
 ![Screenshot of svg opened in browser](./assets/images/svg-browser.png)
 
 ## Credits
